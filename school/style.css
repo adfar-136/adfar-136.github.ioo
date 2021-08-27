@@ -37,7 +37,7 @@ header {
 }
 nav{
     display: flex;
-    padding-left: 270px;
+    padding-left: 200px;
     justify-content:space-between;
     align-items: center;
 }
@@ -151,6 +151,9 @@ nav .fa{
     .text-box h1{
     font-size: 20px;
 }
+   .nav{
+       padding-left: 103px;
+   }
     .nav-links ul li{
         display: block;
     }
