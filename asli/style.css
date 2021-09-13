@@ -181,7 +181,7 @@ nav .fa{
 
 @media(max-width:900px){
     .header{
-        padding: -150px;
+        padding: -300px;
         width: 105%;
     }
     .text-box h1{
