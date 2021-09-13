@@ -230,7 +230,7 @@ nav .fa{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
 .about .image{
@@ -259,7 +259,7 @@ nav .fa{
 
 .about .content p{
     line-height: normal;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     color:#140d48;
     font-family: 'Roboto', sans-serif; 
     padding:1rem;
@@ -399,14 +399,14 @@ nav .fa{
 
 /*------Services-----*/
 .service{
-  margin-top: 110px;  
+  
   width: 100vw;
   text-align: center;
 }
 .service .heading{
     color:#140d48;
     padding:1rem;
-    font-size: 4rem;
+    font-size: 6rem;
     text-align: center;
 }
 
@@ -429,10 +429,18 @@ nav .fa{
 }
 
 .service .row .content h3{
-  font-size: 3rem;
+  font-size: 30px;
   color:var(--color);
 }
-
+.service .row .content h2{
+  font-size: 24px;
+  color:rgb(160, 223, 13);
+}
+.service .row .content h1{
+  font-size: 70px;
+  color:orange;
+  height: 60px;
+}
 .service .row .content p{
   padding:1rem 0;
   line-height: normal;
@@ -469,6 +477,7 @@ nav .fa{
 
 .course .box-container .box img{
     height:12rem;
+    padding: 10px;
     width: 100%;
     object-fit: cover;
 }
@@ -495,7 +504,7 @@ nav .fa{
 .course .box-container .box .content p{
     padding:1rem 0;
     color:#666;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .course .box-container .box .content .info{
@@ -518,10 +527,9 @@ nav .fa{
 
 .course .box-container .box .price{
     position: absolute;
-    top: 12.5rem;
-    right: 6rem;
+    top: 11.8rem;
+    right: 3rem;
     height: 2rem;
-    width: 4rem;
     line-height: rem;
     text-align: center;
     border-radius: 50%;
@@ -605,9 +613,6 @@ h3{
 .testimonials-col h3{
     margin-top: 15px;
     text-align: left;
-}
-.testimonials-col .fa{
-    color: #f44336;
 }
 @media(max-width: 700px){
     .testimonials-col img{
