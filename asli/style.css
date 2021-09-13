@@ -67,9 +67,11 @@ header .logo2{
 .dev{
     padding-top: 120px;
 }
-.dev2{
-    padding-top: -80px;
+@media (max-width: 700px)
+.header {
+    min-height: 150vh;
 }
+
 nav{
     display: flex;
     padding: 2px;
@@ -181,7 +183,8 @@ nav .fa{
 
 @media(max-width:900px){
     dev2{
-       padding: 0;
+        padding-top: -100px;
+       
     }
     .text-box h1{
     font-size: 20px;
