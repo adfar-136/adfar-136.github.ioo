@@ -57,13 +57,12 @@ header .logo2{
 }
 
 .header{
-    min-height: 180vh;
+    min-height: 160vh;
     width: 100%;
     background:linear-gradient(90deg,#05993e, #031257);;
     background-position: center;
     background-size: cover;
-    position: relative;
-    
+    position: relative; 
 }
 .dev{
     padding-top: 120px;
@@ -180,7 +179,10 @@ nav .fa{
 }
 
 
-@media(max-width:700px){
+@media(max-width:900px){
+    .header{
+        padding: -100px;
+    }
     .text-box h1{
     font-size: 20px;
 }
