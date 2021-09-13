@@ -184,11 +184,15 @@ nav .fa{
         height: auto;
     }
     .header{
-        min-height: 180vh;
+        min-height: 100vh;
+    }
+    .dev{
+        position: relative;
+        bottom: 100px;
     }
     .dev2{
         position: relative;
-        bottom: 30px;
+        top: 70px;
     }
     .text-box h1{
     font-size: 20px;
