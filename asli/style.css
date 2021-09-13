@@ -186,6 +186,10 @@ nav .fa{
     .header{
         min-height: 200vh;
     }
+    .dev2{
+        position: relative;
+        bottom: 110px;
+    }
     .text-box h1{
     font-size: 20px;
 }
