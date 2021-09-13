@@ -179,6 +179,10 @@ nav .fa{
 
 
 @media(max-width:900px){
+    *{
+        max-width: 100%;
+        height: auto;
+    }
     .header{
         min-height: 160vh;
     }
