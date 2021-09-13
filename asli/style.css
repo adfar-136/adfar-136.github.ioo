@@ -67,9 +67,13 @@ header .logo2{
 .dev{
     padding-top: 120px;
 }
-@media (max-width: 700px)
+@media (max-width: 700px){
 .header {
     min-height: 150vh;
+}
+.dev{
+    padding-top: 0;
+}
 }
 
 nav{
