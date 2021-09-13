@@ -224,6 +224,48 @@ nav .fa{
 }
 
 
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 70px;
+}
+
+.about .image{
+    flex:1 1 40rem;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+
+}
+
+.about .image img{
+    height:65vh;
+    width:100%;
+}
+
+.about .content{
+    flex:.5 .5 45rem;
+}
+
+.about .content h3{
+    font-size: 4.5rem;
+    color:rgb(5, 5, 44);
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bolder;
+}
+
+.about .content p{
+    line-height: normal;
+    font-size: 2.5rem;
+    color:#140d48;
+    font-family: 'Roboto', sans-serif; 
+    padding:1rem;
+    margin-right: 3rem;
+}
+
 .aboutt{
     display: flex;
     align-items: center;
@@ -329,46 +371,31 @@ nav .fa{
     
 
 
-.about{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 70px;
+@media (max-width: 900px) {
+    .about {
+        text-align: justify;
+        padding-left: 15px;
+    }
+      .about a{
+        margin-left: 110px;
+    }  
+    
+    .about .content h3 {
+        
+        font-size: 4.5rem;
+        color:rgb(5, 5, 44);
+        font-family: 'Roboto', sans-serif; 
+        font-weight: bolder;}
+
+    .about .content p {
+        color: #666;
+        padding-bottom: 10px;
+        line-height: normal;
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;        
+    }
 }
 
-.about .image{
-    flex:1 1 40rem;
-    margin-top: 30px;
-    margin-right: 15px;
-    margin-bottom: 30px;
-
-}
-
-.about .image img{
-    height:65vh;
-    width:100%;
-}
-
-.about .content{
-    flex:.5 .5 45rem;
-}
-
-.about .content h3{
-    font-size: 4.5rem;
-    color:rgb(5, 5, 44);
-    font-family: 'Roboto', sans-serif; 
-    font-weight: bolder;
-}
-
-.about .content p{
-    line-height: normal;
-    font-size: 2.5rem;
-    color:#140d48;
-    font-family: 'Roboto', sans-serif; 
-    padding:1rem;
-    margin-right: 3rem;
-}
 
 /*------Services-----*/
 .service{
@@ -539,14 +566,8 @@ h3{
     .row{
         flex-direction: column;
     }
-    .about p{
-        margin-left: 90px;
-        margin-right: 30px;
-        width: 75%;
-    }
-    .about a{
-        margin-left: 110px;
-    }
+    
+    
 }
 
 /*------testimonials-------*/
