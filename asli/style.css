@@ -64,7 +64,7 @@ header .logo2{
 .header{
     min-height: 180vh;
     width: 100%;
-    background:linear-gradient(90deg,#05993e, #031257);;
+    background:linear-gradient(90deg,#05993e, #031257);
     background-position: center;
     background-size: cover;
     position: relative; 
@@ -573,15 +573,15 @@ padding: 18px 0;
     color:#fff;
 }
 .contact{
-    background:rgb(160, 218, 133);
+    background:linear-gradient(90deg,#05993e, #031257);
     
 }
 
 .contact .heading{
-    color:#444;
+    color:rgb(17, 42, 90);
     padding-top:4rem;
     margin-top: 40px;
-    font-size: 4rem;
+    font-size: 5rem;
     text-align: center;
 }
 
@@ -639,7 +639,7 @@ padding: 18px 0;
 }
 
 .footer{
-    background:rgb(160, 218, 133);
+    background:linear-gradient(90deg,#05993e, #031257);
 }
 
 .footer .box-container{
