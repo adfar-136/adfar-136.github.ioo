@@ -184,7 +184,7 @@ nav .fa{
         height: auto;
     }
     .header{
-        min-height: 105vh;
+        min-height: 100vh;
     }
     .dev{
         position: relative;
