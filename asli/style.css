@@ -686,7 +686,7 @@ padding: 18px 0;
     padding:2rem 1rem;
     font-size: 2rem;
     color:#fff;
-    background:rgb(160, 218, 133);
+    background:linear-gradient(90deg,#05993e, #031257);
     text-align: center;
     font-weight: normal;
     padding-bottom: 9rem;
