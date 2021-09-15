@@ -142,7 +142,7 @@ nav img{
     padding-top: 12px;
     padding-bottom: 12px;
     font-size: 17px;
-    background: rgb(82, 138, 139);
+    background: rgb(103, 142, 143);
     position: relative;
     cursor: pointer;
     margin: 10px;
@@ -236,6 +236,7 @@ nav .fa{
     justify-content: center;
     flex-wrap: wrap;
     padding-top: 20px;
+    margin-top:30px;
 }
 
 .about .image{
@@ -608,7 +609,7 @@ padding: 18px 0;
     padding: 0 5rem;
     margin: 1rem 0;
     font-size: 1.7rem;
-    color: #fff;
+    color:rgb(105, 103, 103);
     background: none;
     text-transform: none;
 }
@@ -892,6 +893,13 @@ justify-content: space-between;
 flex-wrap: wrap;
 }
 
+.service-wrp .heading{
+    color:#140d48;
+    padding:1rem;
+    font-size: 6rem;
+    text-align: center;
+}
+
 .service-card{
 width: 32%;
 margin: 10px 0
@@ -969,6 +977,39 @@ color: #0a0a0a;
 line-height: 1.7;	
 text-align: center;
 }
+ 
+.service-card .info h2
+    {
+    color:#140d48;
+    padding:1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.service-card .info .inner {
+    width: 350px;
+    height: 340px;
+    margin: 5px;
+    background-color: whitesmoke;
+    border-radius: 26px;
+}
+.service-card .info .ch1{
+  font-size: 30px;
+  margin: 0;
+  margin-top: 2px;
+  color: #1b1a1a;
+  padding: 6px;
+
+}
+.service-card .info .ch3{
+  font-size: 20px;
+  width: auto;
+  color: rgb(136, 129, 129);
+  margin-top: 5px;
+  margin-left: 3px;
+  text-align: left;
+}
 
 .service-cardd .info{
 color: #0a0a0a;
@@ -1019,6 +1060,10 @@ margin: 10px 0px;
 width: 100%;
 margin: 10px 0px;
 }
+
+
+
+
 
 
 
