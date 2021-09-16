@@ -356,8 +356,12 @@ nav .fa{
         margin: 15px;
     }
 
-    .
-    
+    .aboutt .image{
+        width: 70px;
+        height: 30px;
+        margin-bottom:190px;
+
+    }
     .abouttt {
         display: flex;
         align-items: center;
