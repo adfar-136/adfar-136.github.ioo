@@ -356,11 +356,11 @@ nav .fa{
         margin: 15px;
     }
 
-    .aboutt .image{
-        width: 70px;
-        height: 30px;
-        margin-bottom:290px;
-
+    .aboutt .contentt{
+        margin-top: 10px;
+    }
+    .aboutt .contentt h2{
+        color: rgb(19, 51, 121);
     }
     .abouttt {
         display: flex;
