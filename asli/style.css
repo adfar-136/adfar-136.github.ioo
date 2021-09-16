@@ -361,6 +361,7 @@ nav .fa{
     }
     .aboutt .contentt h2{
         color: rgb(19, 51, 121);
+        margin-top: 20px;
     }
     .abouttt {
         display: flex;
