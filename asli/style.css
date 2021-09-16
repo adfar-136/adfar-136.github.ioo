@@ -352,6 +352,9 @@ nav .fa{
 }
 
 @media (max-width: 900px) {
+    .footer .credit a{
+    color:#f39c12
+}
     .aboutt{
         margin: 15px;
     }
