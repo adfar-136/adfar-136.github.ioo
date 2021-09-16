@@ -355,12 +355,15 @@ nav .fa{
     .aboutt{
         margin: 15px;
     }
-
+  .aboutt .image{
+      display: inline-block;
+      padding: 0;
+  }
     .aboutt .contentt{
         margin-top: 10px;
     }
     .aboutt .contentt h2{
-        color: rgb(19, 51, 121);
+        color: rgb(17, 42, 90);
         margin-top: 20px;
     }
     .abouttt {
