@@ -189,7 +189,7 @@ nav .fa{
         height: auto;
     }
     .header{
-        min-height: 100vh;
+        min-height: 110vh;
     }
     .dev{
         position: relative;
@@ -199,6 +199,7 @@ nav .fa{
         position: relative;
         top: 60px;
     }
+    
     .text-box h1{
     font-size: 20px;
 }
