@@ -229,6 +229,39 @@ nav .fa{
 }
 
 
+.know{
+   
+    margin-top: 75px;
+    padding: 0px 25px;
+    text-align: center;
+
+}
+.know .more .know-more h1{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.know .more .know-more h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30p;
+}
+
+.know .more .know-more p{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 20px;
+    font-size: 26px;
+    line-height: 24px;
+    color: rgb(3, 14, 29);
+    
+}
+
+
 
 .about{
     display: flex;
@@ -413,7 +446,8 @@ nav .fa{
         font-size: 4.5rem;
         color:rgb(5, 5, 44);
         font-family: 'Roboto', sans-serif; 
-        font-weight: bolder;}
+        font-weight: bolder;
+    }
 
     .about .content p {
         color: #666;
@@ -421,6 +455,23 @@ nav .fa{
         line-height: normal;
         font-size: 2.5rem;
         font-family: 'Roboto', sans-serif;        
+    }
+    .know .more .know-more h1{
+        font-size: 4.5rem;
+        color:rgb(5, 5, 44);
+        font-family: 'Roboto', sans-serif; 
+        font-weight: bolder;
+    }
+    .know .more .know-more p{
+        color: #666;
+        text-align:left;
+        width: 100%;
+        padding: 0%;
+        margin: 0;
+        padding-bottom: 10px;
+        line-height: normal;
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;   
     }
 }
 
@@ -1047,7 +1098,7 @@ font-size: 15px;
 
 /***********/
 
-@media (max-width: 768px){
+@media (max-width: 900px){
 .service-wrp {
 padding: 40px 15px;
 margin-top: 0
@@ -1078,7 +1129,7 @@ margin: 10px 0px;
 width: 100%;
 margin: 10px 0px;
 }
-
+}
 
 
 
