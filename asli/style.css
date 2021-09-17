@@ -56,9 +56,10 @@ header .logo{
     font-size: 2.5rem;
 }
 header .logo2{
-    height: 35px;
-    padding-top: 5px;
-
+    height: 50px;
+    padding-top: 7px;
+    position: relative;
+    right: 88px;
 }
 
 .header{
@@ -193,6 +194,13 @@ nav .fa{
     }
     .header{
         min-height: 110vh;
+    }
+    header .logo2{
+        position: relative;
+        right: 10px;
+        width: 80px;
+        height: 40px;
+
     }
     .dev{
         position: relative;
