@@ -144,27 +144,12 @@ nav img{
     font-size: 17px;
     background: rgb(103, 142, 143);
     position: relative;
-    cursor: pointer;
-    margin: 10px;
-    border-radius: 15px;
-}
-.hero-btnn{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    padding: 8px 24px;
-    z-index: -1;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    font-size: 17px;
-    background: rgb(103, 142, 143);
-    position: relative;
     z-index: 2;
     cursor: pointer;
     margin: 10px;
     border-radius: 15px;
 }
+
 
 .book{
      display: inline-block;
