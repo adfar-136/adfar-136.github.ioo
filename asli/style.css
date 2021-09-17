@@ -193,7 +193,7 @@ nav .fa{
         height: auto;
     }
     .header{
-        min-height: 110vh;
+        min-height: 100vh;
     }
     header .logo2{
         position: relative;
