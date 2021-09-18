@@ -629,7 +629,7 @@ h3{
 }
 @media(max-width: 900px){
     .cta{
-        min-height: 80vh;
+        min-height: 50vh;
     }
     .cta h1{
         font-size: 24px;
@@ -1389,6 +1389,7 @@ text-align: center;
         min-height: 50vh;
         padding: 0;
         margin-bottom: 20px;
+        margin-top: 30px;
     }
 .intro .introtext h1{
         font-size: 38px;
