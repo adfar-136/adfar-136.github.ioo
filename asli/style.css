@@ -1395,7 +1395,7 @@ text-align: center;
         width: 85%;
         margin: 0;
         right: 0;
-        left: 55px;
+        left: 20px;
         top: 10px;
         text-align: center;
     }
@@ -1406,7 +1406,7 @@ text-align: center;
         margin: 0;
         margin-top: 20px;
         right: 0;
-        left: 55px;
+        left: 20px;
         top: 20px;
         text-align: center;
     } 
@@ -1418,8 +1418,8 @@ text-align: center;
         z-index: 2;
         position:relative;
         top: 50px;
-        right: 60px;
-        left: 60px;
+        right: 0;
+        left: 35px;
         text-align: center;
     }     
     
@@ -1443,6 +1443,48 @@ width: 100%;
 margin: 10px 0px;
 }
 }
+
+.dev-team {
+padding: 40px 15px;
+margin-top: 0
+}
+
+.dev-team h1 {
+    margin-bottom: 5px;
+    margin-top: 40px;
+font-size: 26px;
+line-height: 1.3;
+}
+.dev-team .teams {
+flex-direction: column;
+}
+
+.dev-team .teams .dev-sec{
+width: 100%;
+margin: 10px 0px;
+}
+
+.dev-services {
+padding: 40px 15px;
+margin-top: 0
+}
+
+.dev-services h1 {
+    margin-bottom: 5px;
+    margin-top: 40px;
+font-size: 26px;
+line-height: 1.3;
+}
+.dev-services .servi {
+flex-direction: column;
+}
+
+.dev-services .servi .dev-serv{
+width: 100%;
+margin: 10px 0px;
+}
+}
+
 
 
 
