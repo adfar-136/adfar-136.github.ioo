@@ -610,7 +610,7 @@ h3{
 /*-----Call to Action----*/
 
 .cta{
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
     background: #031257;
     background-position: center;
@@ -620,7 +620,7 @@ h3{
 }
 
 .cta h1{
-    color: #fff;
+    color: rgb(184, 22, 22);
     padding-top: 150px;
     
 }
