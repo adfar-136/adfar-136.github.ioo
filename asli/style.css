@@ -63,16 +63,14 @@ header .logo2{
 }
 
 .header{
-    min-height: 180vh;
+    min-height: 100vh;
     width: 100%;
     background:linear-gradient(90deg,#05993e, #031257);
     background-position: center;
     background-size: cover;
     position: relative; 
 }
-.dev{
-    padding-top: 120px;
-}
+
 
 
 nav{
@@ -617,14 +615,14 @@ h3{
     background: #031257;
     background-position: center;
     background-size: cover;
-
     text-align: center;
-    padding: 100px 0;
+    
 }
+
 .cta h1{
     color: #fff;
-    margin-bottom: 40px;
-    padding-top: 100px;
+    padding-top: 150px;
+    
 }
 @media(max-width: 900px){
     .cta{
