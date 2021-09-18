@@ -63,12 +63,13 @@ header .logo2{
 }
 
 .header{
-    min-height: 100vh;
+    min-height: 95vh;
     width: 100%;
     background:linear-gradient(90deg,#05993e, #031257);
     background-position: center;
     background-size: cover;
     position: relative; 
+    margin-top: 30px;
 }
 
 
@@ -111,7 +112,7 @@ nav img{
 }
 .text-box{
     width: 90%;
-    color: rgb(173, 11, 11);
+    color: white;
     position:absolute;
     top:50%;
     left:50%;
@@ -203,12 +204,9 @@ nav .fa{
     }
     .dev{
         position: relative;
-        bottom: 100px;
+        bottom: 70px;
     }
-    .dev2{
-        position: relative;
-        top: 60px;
-    }
+    
     
     .text-box h1{
     font-size: 20px;
@@ -610,7 +608,7 @@ h3{
 /*-----Call to Action----*/
 
 .cta{
-    min-height: 80vh;
+    min-height: 70vh;
     width: 100%;
     background: #031257;
     background-position: center;
@@ -620,9 +618,13 @@ h3{
 }
 
 .cta h1{
-    color: rgb(184, 22, 22);
+    color: white;
     padding-top: 150px;
     
+}
+.cta .ctaa{
+    position: relative;
+    top:40px;
 }
 @media(max-width: 900px){
     .cta{
