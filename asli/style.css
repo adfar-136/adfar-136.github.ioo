@@ -371,21 +371,24 @@ nav .fa{
 }
 
 .aboutt .image{
-    flex:1 1 40rem;
-    margin-top: 30px;
-    margin-right: 15px;
+
+    flex:0.1 0.1 0.1 1rem;
+    margin-top: 80px;
+    margin-right: 65px;
     margin-bottom: 30px;
+    margin-left: 130px;
 
 }
 
 .aboutt .image img{
-    height:65vh;
+    height:25vh;
     width:100%;
 }
 
 .aboutt .contentt{
     flex:1 1 40rem;
     margin-top: 60px;
+    margin-left: 140px;
 }
 
 .aboutt .contentt h2{
@@ -452,13 +455,16 @@ nav .fa{
       display: inline-block;
       padding: 0;
       margin: 0;
+      margin-top: 70px;
   }
     .aboutt .contentt{
         margin-top: 10px;
+        margin: 0;
     }
     .aboutt .contentt h2{
         color: rgb(17, 42, 90);
         margin-top: 20px;
+        margin: 0;
     }
     .abouttt {
         display: flex;
