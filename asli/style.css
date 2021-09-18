@@ -608,9 +608,9 @@ h3{
 /*-----Call to Action----*/
 
 .cta{
-    min-height: 70vh;
+    min-height: 50vh;
     width: 100%;
-    background: #031257;
+    
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -618,8 +618,9 @@ h3{
 }
 
 .cta h1{
-    color: white;
-    padding-top: 150px;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 30px;
     
 }
 .cta .ctaa{
