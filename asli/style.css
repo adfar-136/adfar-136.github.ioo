@@ -283,16 +283,25 @@ nav .fa{
     margin-top: 10px;
     text-align: left;
     font-size: 20px;
-    margin-top: 30p;
+    margin-left: 40px;
+}
+.know .more .know-more ul li{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 40px;
 }
 
 .know .more .know-more p{
-    margin-left: 160px;
-    margin-right: 160px;
-    margin-top: 20px;
-    font-size: 26px;
-    line-height: 24px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    font-size: 33px;
+    line-height: 32px;
     color: rgb(3, 14, 29);
+    text-align: left;
     
 }
 
