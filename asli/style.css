@@ -608,9 +608,8 @@ h3{
 /*-----Call to Action----*/
 
 .cta{
-    min-height: 50vh;
+    min-height: 40vh;
     width: 100%;
-    
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -621,6 +620,7 @@ h3{
     color: black;
     margin-top: 100px;
     margin-bottom: 30px;
+    padding-top: 50px;
     
 }
 .cta .ctaa{
@@ -1384,8 +1384,65 @@ font-size: 15px;
 line-height: 1.5;
 text-align: center;
 }
+@media(max-width:900px){
+    .intro{
+        min-height: 50vh;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+.intro .introtext h1{
+        font-size: 38px;
+        width: 85%;
+        margin: 0;
+        right: 0;
+        left: 55px;
+        top: 10px;
+        text-align: center;
+    }
 
+.intro .introtext h2{
+        font-size: 25px;
+        width: 85%;
+        margin: 0;
+        margin-top: 20px;
+        right: 0;
+        left: 55px;
+        top: 20px;
+        text-align: center;
+    } 
+ .intro .introtext p{
+        font-size: 18px;
+        width: 45%;
+        margin: 0;
+        color: rgb(78, 67, 67);
+        z-index: 2;
+        position:relative;
+        top: 50px;
+        right: 60px;
+        left: 60px;
+        text-align: center;
+    }     
+    
+.aboutc {
+padding: 40px 15px;
+margin-top: 0
+}
 
+.aboutc h1 {
+    margin-bottom: 5px;
+    margin-top: 40px;
+font-size: 26px;
+line-height: 1.3;
+}
+.aboutc .sect {
+flex-direction: column;
+}
+
+.aboutc .sect .about-sec{
+width: 100%;
+margin: 10px 0px;
+}
+}
 
 
 
