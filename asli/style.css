@@ -236,98 +236,284 @@ nav .fa{
         padding: 30px;
     }
 }
+
 .free{
-    min-height: 40vh;
-    width: 100%;
-    background:linear-gradient(90deg,#05993e, #031257);
-    margin-top: 45px;
+    display: flex;
+    background:linear-gradient(90deg,#479766, #3461c2);
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 94vh;
+    padding-top: 20px;
+    margin-top:30px;
+    width:100%;
 }
 
-.free h1{
-    
-    text-align: center;
-    font-size: 50px;
-    color: white;
-}
-
-.free h3{
-    text-align: center;
-    top: 20px;
-    font-size: 30px;
-    color: white;
-    
-    margin-top: 20px;
-}
-
-.know{
-    
-   
-    margin-top: 12px;
-    padding: 0px 25px;
-    text-align: center;
-
-}
-.know .more .know-more{
-    min-height: 97vh;
-}
-
-.know .more .know-more h1{
-    margin-bottom: 30px;
-    text-align: center;
-    font-size: 40px;
+.free .imag{
+    height: 400px;
+    width: 400px;
     margin-top: 30px;
+    margin-right: 75px;
+    margin-bottom: 30px;
+    border-radius: 100%;
+
 }
 
-.know .more .know-more h2{
-    margin-bottom: 10px;
-    margin-top: 10px;
-    text-align: left;
-    font-size: 20px;
-    margin-left: 40px;
-}
-.know .more .know-more ul li{
-    margin-bottom: 10px;
-    margin-top: 10px;
-    text-align: left;
-    font-size: 20px;
-    line-height: 40px;
-    margin-left: 40px;
+.free .imag img{
+    height:45vh;
+    width:100%;
 }
 
-.know .more .know-more p{
-    margin-left: 40px;
-    margin-right: 40px;
+
+
+.free .one h1{
+    font-size: 4.5rem;
+    color:rgb(5, 5, 44);
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bolder;
+}
+
+.free .one h3{
+    line-height: normal;
+    font-size: 2.1rem;
+    color:#140d48;
+    font-family: 'Roboto', sans-serif; 
+    padding:1rem;
+    margin-right: 3rem;
+    text-align: justify;
+}
+.free .one h4{
+    line-height: normal;
+    font-size: 3rem;
+    color:#140d48;
+    font-family: 'Roboto', sans-serif; 
+    padding:1rem;
+    margin-top: 20px;
+    margin-right: 3rem;
+    text-align: center;
+}
+.free .one h5{
+    line-height: normal;
+    font-size: 4rem;
+    color:#fff;
+    font-family: 'Roboto', sans-serif; 
+    padding:1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 3rem;
+    text-align: left;
+}
+
+.kashmir{
+    display: flex;
     
-    font-size: 33px;
-    line-height: 32px;
-    color: rgb(3, 14, 29);
-    text-align: left;
-    
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 94vh;
+    padding-top: 20px;
+    padding: 30px;
+}
+.coding{
+     background: linear-gradient(to right, #00f260, #0575e6);
+}
+.motto{
+     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+}
+.vision{
+    background: linear-gradient(to right, #56ccf2, #2f80ed);
+}
+.kash{
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+}
+.kashmir .know-more{
+    flex:1 1 40rem;
 }
 
+
+.kashmir .im{
+    height: 400px;
+    width: 400px;
+    margin-top: 110px;
+    margin-right: 75px;
+    
+    border-radius: 100%;
+
+}
+
+.kashmir .im img{
+    height:45vh;
+    width:100%;
+}
+
+
+
+.kashmir .know-more h1{
+    font-size: 3.5rem;
+    color:rgb(5, 5, 44);
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.kashmir .know-more h2{
+    line-height: normal;
+    font-size: 1.6rem;
+    color:rgb(5, 5, 44);
+    
+    
+    margin-right: 3rem;
+    text-align: center;
+}
+.kashmir .know-more ul li{
+    line-height: normal;
+    font-size: 1.8rem;
+    color:rgb(5, 5, 44);
+    font-family: 'Roboto', sans-serif; 
+    padding:0.5rem;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.kashmir .know-more p{
+    line-height: normal;
+    font-size: 1.8rem;
+    color:rgb(5, 5, 44);
+    font-family: 'Roboto', sans-serif; 
+    padding:0.5rem;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.more{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.more h2{
+    font-size: 30px;
+    
+}
+.more a{
+    text-align: center;
+    position: relative;
+    left: 200px;
+}
 @media (max-width: 900px){
-    .know {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin: 15px;
+
+.free {
+        text-align: center;
+        padding-left: 15px;
+        width: 100%;
+        height: auto;
     }
-    .know .more .know-more {
-        flex: 1 1 40rem;
+.free .one{
+        margin-top: 10px;
+        margin: 0;
     }
-    .know .more .know-more h1 {
-        padding: 0;
-        font-size: 25px;
-        color: #666;
-    }
-    .know .more .know-more p {
-        font-size: 20px;
-        color: #666;
-        padding: 0;
+.free .one a{
+        margin:0;
+    }  
+    
+.free .one h1 {
+        
+        font-size: 4.5rem;
+        color:rgb(5, 5, 44);
+        font-family: 'Roboto', sans-serif; 
+        font-weight: bolder;
     }
 
+.free .one h3 {
+        color: #fff;
+        padding-bottom: 10px;
+        line-height: normal;
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;   
+        margin: 0;     
+    }
+.free .one h4 {
+        color: #fff;
+        padding-bottom: 10px;
+        line-height: normal;
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;   
+        margin: 0;     
+    }
+ .free .one h5 {
+        color: #fff;
+        padding-bottom: 10px;
+        line-height: normal;
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;   
+        margin: 0;     
+    }   
+
+.free .imag{
+        width: 210px;
+        height: 210px;
+        padding: 0;
+        margin: 0;
+        margin-top: 48px;
+    }
+.kashmir{
+        text-align: center;
+        padding-left: 15px;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+.kashmir .know-more{
+        margin-top: 10px;
+        margin: 0;
+    } 
+    
+.kashmir .know-more h1 {
+        
+        font-size: 4.5rem;
+        color:rgb(5, 5, 44);
+        font-family: 'Roboto', sans-serif; 
+        font-weight: bolder;
+    }
+
+.kashmir .know-more h2 {
+        color: rgb(0, 0, 0);
+        padding-bottom: 10px;
+        line-height: normal;
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;   
+        margin: 0;     
+    }
+.kashmir .know-more ul li {
+        color: rgb(3, 3, 3);
+        padding-bottom: 10px;
+        line-height: normal;
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;   
+        margin: 0;   
+        margin-left: 10px;  
+    }
+
+  .kashmir .know-more p{
+        color: rgb(3, 3, 3);
+        padding-bottom: 10px;
+        line-height: normal;
+        font-size: 2.3rem;
+        font-family: 'Roboto', sans-serif;   
+        margin: 0;   
+        margin-left: 10px;  
+    }  
+
+.kashmir .im{
+        width: 210px;
+        height: 210px;
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+
 }
+
+
 
 .about{
     display: flex;
@@ -528,23 +714,7 @@ nav .fa{
         font-size: 2.5rem;
         font-family: 'Roboto', sans-serif;        
     }
-    .know .more .know-more h1{
-        font-size: 4.5rem;
-        color:rgb(5, 5, 44);
-        font-family: 'Roboto', sans-serif; 
-        font-weight: bolder;
-    }
-    .know .more .know-more p{
-        color: #666;
-        text-align:left;
-        width: 100%;
-        padding: 0%;
-        margin: 0;
-        padding-bottom: 10px;
-        line-height: normal;
-        font-size: 2.5rem;
-        font-family: 'Roboto', sans-serif;   
-    }
+    
 }
 
 
