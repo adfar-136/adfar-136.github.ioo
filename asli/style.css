@@ -415,7 +415,8 @@ nav .fa{
         color:rgb(5, 5, 44);
         font-family: 'Roboto', sans-serif; 
         font-weight: bolder;
-        margin: 0;
+        margin: 5px;
+        padding: 0;
     }
 
 .free .one h3 {
@@ -449,8 +450,8 @@ nav .fa{
         height: 210px;
         padding: 0;
         margin: 0;
-        margin-top: 10px;
-        margin-bottom: 6px;
+        margin-top: 40px;
+        margin-bottom: 0px;
 
     }
 .kashmir{
