@@ -61,7 +61,7 @@ header .logo2{
     position: relative;
     right: 88px;
 }
-
+/*----
 .header{
     min-height: 95vh;
     width: 100%;
@@ -71,7 +71,7 @@ header .logo2{
     position: relative; 
     margin-top: 30px;
 }
-
+---*/
 
 
 nav{
@@ -179,10 +179,10 @@ nav .fa{
         max-width: 100%;
         height: auto;
     }
-   
+   /*---
     .header{
         min-height: 100vh;
-    }
+    }---*/
     header .logo2{
         position: relative;
         right: 10px;
