@@ -454,6 +454,59 @@ nav .fa{
         margin-bottom: 0px;
 
     }
+.service{
+        text-align: center;
+        padding-left: 15px;
+        width: 100%;
+        height: auto;
+    }
+.service .content{
+        margin-top: 5px;
+        margin: 0;
+    }
+.service .content a{
+        margin:0;
+    }  
+    
+.service .content h1 {
+        
+        font-size: 3.5rem;
+        color:rgb(5, 5, 44);
+        font-family: 'Roboto', sans-serif; 
+        font-weight: bolder;
+        margin: 5px;
+        padding: 0;
+    }
+
+.service .content h2 {
+        color: #fff;
+        padding-bottom: 10px;
+        line-height: normal;
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;   
+        margin: 0;     
+    }
+.service .content p {
+        color: #fff;
+        padding-bottom: 10px;
+        line-height: normal;
+        font-size: 2rem;
+        font-family: 'Roboto', sans-serif;   
+        margin: 0; 
+        margin-bottom: 20px;    
+    }
+  
+
+.service .imagee{
+        width: 15px;
+        height: 15px;
+        padding: 0;
+        margin-bottom: 0px;
+       
+
+    }
+
+
 .kashmir{
         text-align: center;
         padding-left: 15px;
@@ -567,7 +620,7 @@ nav .fa{
     font-family: 'Roboto', sans-serif; 
     padding:1rem;
     margin-right: 3rem;
-    text-align: justify;
+    text-align: center;
 }
 
 .aboutt{
@@ -704,7 +757,7 @@ nav .fa{
 
 @media (max-width: 900px) {
     .about {
-        text-align: justify;
+        text-align: center;
         padding-left: 15px;
     }
       .about a{
@@ -731,56 +784,70 @@ nav .fa{
 
 
 /*------Services-----*/
+
 .service{
-  margin-top: 40px;
-  width: 100vw;
-  text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 99vh;
+    width:100%;
 }
-.service .heading{
-    color:#140d48;
+.service .content{
+    flex:1 1 40rem;
+    margin-left: 10px;
+}
+.service .imagee{
+    height: 300px;
+    width: 300px;
+    margin-top: 60px;
+    margin-right:20px;
+    margin-left: 20px;
+
+}
+
+.service .imagee img{
+    height:45vh;
+    width:100%;
+    border-radius: 300px;
+}
+
+
+
+.service .content h1{
+    font-size: 5rem;
+    color:#FF851B;
+    font-family: 'Roboto', sans-serif; 
+    
+    
+}
+
+.service .content h2{
+    
+    font-size: 3rem;
+    font-weight: bold;
+    color:rgb(10, 9, 9);
+    font-family: 'Roboto', sans-serif; 
     padding:1rem;
-    font-size: 6rem;
+    margin-right: 3rem;
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.service .row{
-  margin:2rem 0;
-  padding:0 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.service .content p{
+    line-height: normal;
+    font-size: 2.8rem;
+    font-weight: 500;
+    color:rgb(5, 5, 44);
+    font-family: 'Roboto', sans-serif; 
+    padding:0.5rem;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
 }
 
-.service .row .image img{
-  width:200vw;
-  height:55vh;
-}
 
-.service .row .content{
-  text-align: left;
-  padding:0 3rem;
-}
-
-.service .row .content h3{
-  font-size: 30px;
-  color:var(--color);
-}
-.service .row .content h2{
-  font-size: 24px;
-  color:rgb(160, 223, 13);
-}
-.service .row .content h1{
-  font-size: 70px;
-  color:orange;
-  height: 60px;
-}
-.service .row .content p{
-  padding:1rem 0;
-  line-height: normal;
-  font-size: 2.5rem;
-  color:#140d48;
-  font-family: 'Roboto', sans-serif; 
-}
 
 
 h1{
@@ -932,9 +999,9 @@ padding: 18px 0;
     height: 5rem;
     width: 49%;
     border: .2rem solid #eee;
-    padding: 0 3rem;
+    padding: 0 1rem;
     margin: 1rem 0;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     color:rgb(105, 103, 103);
     background: none;
     text-transform: none;
@@ -1356,6 +1423,8 @@ font-size: 15px;
 /***********/
 
 @media (max-width: 900px){
+
+
 .service-wrp {
 padding: 40px 15px;
 margin-top: 0
