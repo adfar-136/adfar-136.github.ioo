@@ -142,7 +142,7 @@ nav img{
     padding-top: 12px;
     padding-bottom: 12px;
     font-size: 17px;
-    background: rgb(103, 142, 143);
+    background: rgb(24, 183, 189);
     position: relative;
     z-index: 2;
     cursor: pointer;
@@ -151,23 +151,11 @@ nav img{
 }
 
 
-.book{
-     display: inline-block;
-    text-decoration: none;
-    color:black;
-    border: 2px solid black;
-    padding: 6px 20px;
-    font-size: 13px;
-    background:linear-gradient(#33c96d, #61da71);
-    position: relative;
-    cursor: pointer;
-    margin: 17px;
-}
 .bookk{
      display: inline-block;
     text-decoration: none;
     color:black;
-    border: 2px solid black;
+    border: solid black;
     padding: 6px 20px;
     font-size: 13px;
     background:linear-gradient(#33c96d, #61da71);
@@ -243,12 +231,14 @@ nav .fa{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    min-height: 94vh;
+    min-height: 99vh;
     padding-top: 20px;
-    margin-top:30px;
     width:100%;
 }
-
+.free .one{
+    flex:1 1 40rem;
+    margin-left: 10px;
+}
 .free .imag{
     height: 400px;
     width: 400px;
@@ -256,6 +246,7 @@ nav .fa{
     margin-right: 75px;
     margin-bottom: 30px;
     border-radius: 100%;
+    margin-left: 20px;
 
 }
 
@@ -267,25 +258,29 @@ nav .fa{
 
 
 .free .one h1{
-    font-size: 4.5rem;
-    color:rgb(5, 5, 44);
+    font-size: 5rem;
+    color:#FF851B;
     font-family: 'Roboto', sans-serif; 
-    font-weight: bolder;
+    margin-top: 20px;
+    
 }
 
 .free .one h3{
-    line-height: normal;
-    font-size: 2.1rem;
-    color:#140d48;
+    line-height: 40p;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color:white;
     font-family: 'Roboto', sans-serif; 
     padding:1rem;
     margin-right: 3rem;
-    text-align: justify;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .free .one h4{
     line-height: normal;
     font-size: 3rem;
-    color:#140d48;
+    color:white;
     font-family: 'Roboto', sans-serif; 
     padding:1rem;
     margin-top: 20px;
@@ -359,7 +354,7 @@ nav .fa{
 
 .kashmir .know-more h2{
     line-height: normal;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color:rgb(5, 5, 44);
     text-align: left;
     margin-right: 3rem;
@@ -383,12 +378,14 @@ nav .fa{
     margin-left: 80px;
 }
 .more{
-    margin-left: 30px;
-    margin-top: 50px;
+   
+    background: linear-gradient(to right, #00f260, #0575e6);
 }
 
 .more h2{
     font-size: 30px;
+    margin-left: 30px;
+    padding-top: 30px;
     
 }
 .more a{
@@ -451,8 +448,8 @@ nav .fa{
         height: 210px;
         padding: 0;
         margin: 0;
-        margin-top: 28px;
-        margin-bottom: 24px;
+        margin-top: 10px;
+        margin-bottom: 12px;
 
     }
 .kashmir{
@@ -469,7 +466,7 @@ nav .fa{
     
 .kashmir .know-more h1 {
         
-        font-size: 4.5rem;
+        font-size: 3rem;
         color:rgb(5, 5, 44);
         font-family: 'Roboto', sans-serif; 
         font-weight: bolder;
@@ -510,6 +507,18 @@ nav .fa{
         margin: 0;
         margin-top: 30px;
     }
+ 
+}
+
+.more h2{
+    font-size: 15px;
+    
+}
+.more a{
+    text-align: center;
+    position: relative;
+    left: 40px;
+}   
 
 
 }
@@ -897,8 +906,6 @@ padding: 18px 0;
 
 .contact .heading{
     color:rgb(17, 42, 90);
-    padding-top:4rem;
-    margin-top: 40px;
     font-size: 5rem;
     text-align: center;
 }
@@ -923,7 +930,7 @@ padding: 18px 0;
     height: 5rem;
     width: 49%;
     border: .2rem solid #eee;
-    padding: 0 5rem;
+    padding: 0 3rem;
     margin: 1rem 0;
     font-size: 1.7rem;
     color:rgb(105, 103, 103);
@@ -1379,43 +1386,61 @@ margin: 10px 0px;
 }
 }
 
-
 .intro{
-    min-height: 85vh;
-    width: 100%;
-    background:white;
-    margin-top:40px ;
-    position: relative; 
+    display: flex;
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 99vh;
+    padding-top: 20px;
+    width:100%;
 }
+.intro .introtext{
+    flex:1 1 40rem;
+}
+.intro .imag{
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+    margin-right: 75px;
+    margin-bottom: 30px;
+    border-radius: 100%;
+    margin-left: 20px;
+
+}
+
+.intro .imag img{
+    height:45vh;
+    width:100%;
+}
+
+
 .intro .introtext h1{
     position: relative;
-    top: 130px;
-    left: 100px;
+    
     font-size: 50px;
 }
 .intro .introtext h2{
     position: relative;
     margin-top: 30px;
-    top: 160px;
-    left: 100px;
+    
     font-size: 22px;
     color: rgb(87, 85, 85);
 }
 
 
 .intro .introtext p{
-    position: relative;
-    top: 300px;
-    left: 100px;
-
+    font-size: 25px;
+    color: black;
+    margin-top: 50px;
 
 }
 .aboutc{
-    background: white;
-    margin-top: 10px;
+   background: linear-gradient(to right, #6190e8, #a7bfe8);
     padding-top: 60px;
     padding-bottom: 60px;
-    min-height: 85vh;
+    min-height: 95vh;
     width: 100%;
     position: relative; 
 }
@@ -1430,6 +1455,12 @@ margin: 10px 0px;
     width: 24%;
     margin: 10px 0;
    
+}
+.aboutc .sect .about-sec img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left: 80px;
 }
 .aboutc  h1{
     font-size: 45px;
@@ -1452,19 +1483,19 @@ text-align: center;
 font-size: 17px;
 line-height: 1.5;
 text-align: center;
+color: rgb(22, 22, 22);
 }
 
 .dev-team{
-    background: white;
-    margin-top: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    min-height: 93vh;
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height: 95vh;
     width: 100%;
     position: relative; 
 }
 .dev-team .teams{
-    max-width: 1240px;
+    max-width: 1140px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -1473,10 +1504,9 @@ text-align: center;
 .dev-team .teams .dev-sec{
     width: 24%;
     margin: 10px 0;
-    border: 1px solid rgb(208, 208, 221);
-    
-
+   
 }
+
 
 .dev-team  h1{
     font-size: 35px;
@@ -1508,6 +1538,7 @@ text-align: center;
 font-size: 17px;
 line-height: 1.5;
 text-align: center;
+color: rgb(22, 22, 22);
 }
 
 .dev-team .teams .dev-sec .hero-btnn{
@@ -1519,21 +1550,20 @@ text-align: center;
     padding-top: 12px;
     padding-bottom: 12px;
     font-size: 17px;
-    background: rgb(240, 245, 245);
+    background: linear-gradient(to right, #3d7eaa, #ffe47a);
     position: relative;
     z-index: 2;
     cursor: pointer;
     margin-left: 35px;
     margin-right: 15px;
     margin-bottom: 10px;
-    
+}
+.ser-contact{
+     background: linear-gradient(to right, #00f260, #0575e6);
     
 }
-
 .dev-services{
-    background: white;
-    margin-top: 10px;
-    
+     background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
     min-height: 85vh;
     width: 100%;
     position: relative; 
@@ -1553,13 +1583,18 @@ text-align: center;
    
 }
 .dev-services  h1{
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 20px;
     font-weight: 500;
 }
+.dev-services .servi .dev-serv img{
+    width: 40px;
+    height: 40px;
+}
+
 .dev-services .servi .dev-serv h2 {
-font-size: 22px;
+font-size: 19px;
 font-weight: 300;
 line-height: 1.5;
 color: rgb(14, 13, 13);
@@ -1569,13 +1604,23 @@ text-align: center;
 font-size: 15px;
 line-height: 1.5;
 text-align: center;
+color: rgb(22, 22, 22);
 }
 @media(max-width:900px){
     .intro{
         min-height: 50vh;
         padding: 0;
-        margin-bottom: 20px;
         
+        
+    }
+    .intro .imag{
+        width: 170px;
+        height: 170px;
+        padding: 0;
+        margin: 0;
+        margin-top: 45px;
+        
+
     }
 .intro .introtext h1{
          padding-top: 20px;
@@ -1600,14 +1645,9 @@ text-align: center;
     } 
  .intro .introtext p{
         font-size: 18px;
-        width: 45%;
-        margin: 0;
+        margin-top: 20px;
         color: rgb(78, 67, 67);
         z-index: 2;
-        position:relative;
-        top: 50px;
-        right: 0;
-        left: 35px;
         text-align: center;
     }     
     
@@ -1630,7 +1670,7 @@ flex-direction: column;
 width: 100%;
 margin: 10px 0px;
 }
-}
+
 
 .dev-team {
 padding: 40px 15px;
