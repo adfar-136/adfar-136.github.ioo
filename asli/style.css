@@ -270,10 +270,9 @@ nav .fa{
     font-size: 2.5rem;
     font-weight: normal;
     color:white;
-    font-family: 'Roboto', sans-serif; 
     padding:1rem;
-    margin-right: 3rem;
-    text-align: center;
+   
+    text-align: left;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -281,11 +280,10 @@ nav .fa{
     line-height: normal;
     font-size: 3rem;
     color:white;
-    font-family: 'Roboto', sans-serif; 
-    padding:1rem;
-    margin-top: 20px;
-    margin-right: 3rem;
-    text-align: center;
+    padding:3rem;
+    margin-top: 30px;
+    margin-right: 6rem;
+    text-align: left;
 }
 .free .one h5{
     line-height: normal;
