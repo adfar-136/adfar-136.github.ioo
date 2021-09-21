@@ -347,7 +347,7 @@ nav .fa{
     font-family: 'Roboto', sans-serif; 
     font-weight: bolder;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
 }
 
 .kashmir .know-more h2{
@@ -364,13 +364,12 @@ nav .fa{
     font-family: 'Roboto', sans-serif; 
     padding:0.5rem;
     margin-top: 20px;
-    margin-left: 80px;
+    
 }
 .kashmir .know-more p{
     line-height: normal;
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     color:rgb(5, 5, 44);
-    font-family: 'Roboto', sans-serif; 
     padding:0.5rem;
     margin-top: 20px;
     margin-left: 80px;
@@ -561,7 +560,7 @@ nav .fa{
         margin-top: 30px;
     }
  
-}
+
 
 .more h2{
     font-size: 15px;
@@ -613,13 +612,14 @@ nav .fa{
 
 .about .content p{
     line-height: normal;
-    font-size: 2.1rem;
+    font-size: 2.3rem;
     color:#140d48;
-    font-family: 'Roboto', sans-serif; 
     padding:1rem;
-    margin-right: 3rem;
+    
     text-align: center;
 }
+
+
 
 .aboutt{
     display: flex;
@@ -758,10 +758,10 @@ nav .fa{
         text-align: center;
         padding-left: 15px;
     }
-      .about a{
-        margin-left: 110px;
-    }  
-    
+     
+    .about .content a{
+        margin-left: 0;
+    }
     .about .content h3 {
         
         font-size: 4.5rem;
@@ -813,7 +813,7 @@ nav .fa{
 
 
 .service .content h1{
-    font-size: 5rem;
+    font-size: 3.5rem;
     color:#FF851B;
     font-family: 'Roboto', sans-serif; 
     
@@ -822,7 +822,7 @@ nav .fa{
 
 .service .content h2{
     
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     color:rgb(10, 9, 9);
     font-family: 'Roboto', sans-serif; 
@@ -1786,7 +1786,10 @@ margin: 10px 0px;
 }
 }
 
-
+.teamlogo{
+    width: 200px;
+    height: 50px;
+}
 
 
 
