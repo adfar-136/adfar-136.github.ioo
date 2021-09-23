@@ -15,18 +15,18 @@
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">  
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>KashKoding</title>
 </head>
 <body>
 
 
-    
+
 <!-- header section starts  -->
 
 <header>
 
-    
+
       <a href="index.html" class="logo"><img class="logo2" src="images/KashLogo.PNG" alt=""></a>
 
     <nav>
@@ -45,7 +45,7 @@
            </div>
            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-    
+
 
 </header>
 
@@ -53,9 +53,9 @@
 	<div class="service-wrp-inner">
 
 		<div class="service-card bg-dark head">
-			<img src="images/KashLogo.PNG" alt="">
+			<img class="enroll-logo" src="images/KashLogo.PNG" alt="">
 			<h4>
-				One Platform for all Courses. 
+				One Platform for all Courses.
 			</h4>
 			<p class="text">To start learning how to code, we offer different courses with Six segments: Scratch, Thunkable,Front End Development, JavaScript, Python and Tinker CAD.  Every student starts with an initial skills assessment to help place them in the correct course according to age and skill level!</p>
 		</div><!--service-card-->
@@ -63,7 +63,7 @@
 		<div class="service-card bg-dark">
 			<div class="d-flex">
 				<div class="icon">
-					
+
 				<img width="160" height="150" class="icon" alt="" src="images/Scratch.png">
 				</div>
 				<div class="heading">
@@ -80,7 +80,7 @@
 			<div class="d-flex">
 				<div class="icon">
 					<img width="160" height="150" class="icon" alt="" src="images/thunkablep.png">
-				
+
 				</div>
 				<div class="heading">
 					<h5>Mobile Development</h5>
@@ -96,7 +96,7 @@
 			<div class="d-flex">
 				<div class="icon">
 					<img width="160" height="150" class="icon" alt="" src="images/html.svg">
-				
+
 				</div>
 				<div class="heading">
 					<h5>Web Development</h5>
@@ -148,7 +148,7 @@
 				</div>
 			</div>
 			<div class="info">
-				<p>Tinkercad is a free and safe website where your children can make things in 3D, play with virtual electronics, and create designs using blocks of code. Getting your children up and running and making things in 3D is quick and simple, and can be accomplished in a matter of minutes. 
+				<p>Tinkercad is a free and safe website where your children can make things in 3D, play with virtual electronics, and create designs using blocks of code. Getting your children up and running and making things in 3D is quick and simple, and can be accomplished in a matter of minutes.
 Its too easy! And too user-friendly, making every other CAD or 3D program seem absolutely bewildering and clunky.</p>
 				<a href="tinker.html" class="hero-btn">Kar Bismillah</a>
 			</div>
@@ -156,7 +156,7 @@ Its too easy! And too user-friendly, making every other CAD or 3D program seem a
 
 	</div>
 </section>
- 
+
 <!-- contact section starts  -->
 
 <section class="contact" id="contact">
@@ -165,16 +165,16 @@ Its too easy! And too user-friendly, making every other CAD or 3D program seem a
 
 <div class="row">
 
-    <form action="">
-        <input type="text" placeholder="full name" class="box">
-        <input type="email" placeholder="your email" class="box">
-        <input type="text" placeholder="your address" class="box">
-        <input type="number" placeholder="your number" class="box">
-        <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="your message"></textarea>
-        <input type="submit" class="hero-btn" value="Send now">
-    </form>
+  <form method="post" action="db_contactdata.php">
+      <input type="text" placeholder="full name" class="box" name="name">
+      <input type="email" placeholder="your email" class="box"name="email">
+      <input type="text" placeholder="your address" class="box" name="address">
+      <input type="number" placeholder="your number" class="box" name="phone">
+      <textarea name="textmsg" id="" cols="30" rows="10" class="box address" placeholder="your message"></textarea>
+      <input type="submit" class="hero-btn" value="Send now" name="save">
+  </form>
 
-    
+
 </div>
 
 </section>
@@ -187,7 +187,7 @@ Its too easy! And too user-friendly, making every other CAD or 3D program seem a
 
     <div class="box-container">
 
-        
+
         <div class="box">
             <h3>Languages we teach</h3>
             <a href="Scratch.html">Scratch</a>
@@ -215,7 +215,7 @@ Its too easy! And too user-friendly, making every other CAD or 3D program seem a
 
     </div>
 
-    <h1 class="credit">&#169 Copyright<a href="#"> KashKoding 2021.</a> All Rights Reserved . </h1>
+    <h1 class="credit">&#169 Copyright<a href="contact.html"> KashKoding 2021.</a> All Rights Reserved . </h1>
 
 </div>
 

@@ -14,7 +14,7 @@ if(isset($_POST['save']))
  $course = $_POST['course'];
  $sql = "INSERT INTO `reg_form`(`fname`, `lname`, `fathername`, `dob`, `mobile`, `schoolname`, `perm_address`, `grade`, `email`, `course`) VALUES ('$first_name','$last_name','$fathers_name','$dob','$mobile','$schoolname','$perm_address','$grade','$email','$course')";
  if (mysqli_query($conn, $sql)) {
-		echo "New record created successfully !";
+		echo "Thanks for the submission. We will get back to you shortly. Please explore our other courses from the website";
 	 } else {
 		echo "Error: " . $sql . "
 " . mysqli_error($conn);
